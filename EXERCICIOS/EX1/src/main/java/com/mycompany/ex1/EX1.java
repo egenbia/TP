@@ -33,22 +33,35 @@ public class EX1 {
         valorpago = nlitros * 5.39;
          System.out.println("o nvalor a ser pago eh: " + valorpago);*/
         
-        //Exemplo 3
-        //char descricaop;
-        int qtdcomprada, precounit, total;
+        /*//Exemplo 3
+        String descricaop;
+        int qtdcomprada;
+        double precounit, total;
         
-        //System.out.println("digite a descricao do produto");
-        //descricaop = entrada.nextChar();
+        System.out.println("digite a descricao do produto");
+        descricaop = entrada.nextLine();
         System.out.println("digite a quantidade comprada");
         qtdcomprada = entrada.nextInt();
         System.out.println("digite o preco unitario");
-        precounit = entrada.nextInt();
+        precounit = entrada.nextDouble();
         
         total = qtdcomprada * precounit;
         
-        System.out.println("o valor a ser pago eh: " + total);
+        System.out.println("O produto eh: " + descricaop + " e o valor a ser pago eh :" + total);*/
         
+        //Exemplo 4
+        double A, B, area, perimetro;
         
+        System.out.println("digite a medida do lado A");
+        A = entrada.nextDouble();
+        System.out.println("digite a medida do lado B");
+        B = entrada.nextDouble();
+        
+        area = A*B;
+        perimetro = (2*A) + (2*B);
+        
+        System.out.println("A medida da area eh : " + area + "cm" + " e a medida do perimetro eh :" + perimetro + "cm");
+              
         
     }
 }
