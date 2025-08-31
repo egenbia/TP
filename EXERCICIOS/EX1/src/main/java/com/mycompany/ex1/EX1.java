@@ -49,8 +49,8 @@ public class EX1 {
         
         System.out.println("O produto eh: " + descricaop + " e o valor a ser pago eh :" + total);*/
         
-        //Exemplo 4
-        double A, B, area, perimetro;
+        //Exemplo 4 
+        /* double A, B, area, perimetro;
         
         System.out.println("digite a medida do lado A");
         A = entrada.nextDouble();
@@ -60,8 +60,24 @@ public class EX1 {
         area = A*B;
         perimetro = (2*A) + (2*B);
         
-        System.out.println("A medida da area eh : " + area + "cm" + " e a medida do perimetro eh :" + perimetro + "cm");
+        System.out.println("A medida da area eh : " + area + "cm" + " e a medida do perimetro eh :" + perimetro + "cm"); */
               
+        /*int  qtdMoveis, salarioTotal;
+        System.out.println("Digite a quantidade de moveis vendidos:");
+        qtdMoveis = entrada.nextInt();
+        salarioTotal = (qtdMoveis * 50) + 1000;
+        System.out.println("Foram vendidos " + qtdMoveis + " moveis, entao o salario total do funcionario sera de: R$" + salarioTotal);*/
+        
+        int tempo, taxa;
+        double valorParcela, valorAtraso;
+    System.out.println("Digite o valor da parcela: "); 
+    valorParcela = entrada.nextDouble();
+    System.out.println("Digite a taxa de juros: ");
+    taxa = entrada.nextInt();
+    System.out.println("Digite o tempo em meses: ");
+    tempo = entrada.nextInt();
+    valorAtraso = valorParcela + (valorParcela * (taxa / 100) * tempo);
+    System.out.println("O valor da parcela em atraso será: R$" + valorAtraso);
         
     }
 }
